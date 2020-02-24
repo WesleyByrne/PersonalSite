@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Wesley Byrne's homepage!</title>
-		<link rel="stylesheet" type="text/css" href="index.css">
-	</head>
-	<body>
-		<h1>Dream Big</h1>
-		<p>Hello, my name is Wesley Byrne, and I am working towards a career in Computer Science. 
-		I have a degree from Tennessee Tech University, and I have experience working in object oriented languages
-		such as Java and C++. </p>
-		<p>I work hard daily to explore new technologies and polish my programming as well as soft skills. I continue to find new languages to explore almost daily.
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Wesley Byrne's homepage!</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<h1>Welcome to my Site!</h1>
+	<div id="content">
+		<img src="dandy.gif" class="img"/>
+	</div>
+
+	<div class="fixed">The year is, in fact, 2020</div>
+
+	<div class = "column">
+		<p class="text"> My name is Wesley Byrne, and I am working towards a career in Computer Science. 
+		I have a degree from Tennessee Tech University, and I have experience working in object oriented languages such as Java and C++. 
+		<br><br>I work hard daily to explore new technologies and polish my programming as well as soft skills. I continue to find new languages to explore almost daily.
 		I believe in a brighter future!</p>
-	</body>
-		
-	
-	
+		<br><br><br><br>
+		<div id="like_button_container"></div>
+	</div>
+
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+	<script src="like_button.js"></script>
+</body>
+
 </html>
